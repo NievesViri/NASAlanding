@@ -1,10 +1,32 @@
-div.container {
-height: 100px;
-width:c100px;
-border: 5px solid red;  
-padding-left: 20px;
-padding: 10px 40px 12px 20px
-margin: 20px;
+body {
+    width: 850px;
+
+margin: 0 auto;
+
 
 }
-
+main {
+    width: 850px;   
+    height: 450px;
+    background-color: aqua;
+    background-image: url(./Nasa.jpg);
+    font-family: 'Rubik Maze', cursive;
+    color: white;
+    
+    background-size: 100%  100%;
+    
+}  
+section {   
+    display: flex;
+    height: 324px;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgb(227, 205, 126);
+padding-bottom: 200px;
+}
+article {
+    width: 270px;   
+    height: 374px;
+    background-color: rgb(227, 205, 126);
+    background-color: transparent;
+}
